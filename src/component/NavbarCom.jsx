@@ -24,20 +24,20 @@ const NavbarCom = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-      <Navbar.Brand href="#">
+        <Navbar.Brand href="#">
           <img
-            src="src/photos/Logo.png" // Replace with the actual path to your logo
+            src="src/photos/Logo.png"
             alt="Your Company Logo"
             width="80"
             height="40"
-          className="d-inline-block align-top"
+            className="d-inline-block align-top"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto"> 
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">Link</Nav.Link>
             <NavDropdown
               title={<FontAwesomeIcon icon={faList} />}
               id="basic-nav-dropdown"
@@ -56,8 +56,10 @@ const NavbarCom = () => {
             </Button>
           </Nav>
           <Nav>
-            <Button className="rounded-button"
-              onClick={() => console.log("Button clicked")} >
+            <Button
+              className="rounded-button"
+              onClick={() => console.log("Button clicked")}
+            >
               <FontAwesomeIcon icon={faPhone} style={{ paddingRight: "5px" }} />
               Contact
             </Button>

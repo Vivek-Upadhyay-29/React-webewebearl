@@ -1,12 +1,12 @@
 {
-  "homepage": "https://github.com/Vivek-Upadhyay-29/React-webewebearl",
+  "homepage": "https://github.com/Vivek-Upadhyay-29/React-webewebearl/",
   "name": "react-webewebearl",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -19,6 +19,7 @@
     "bootstrap": "^5.3.3",
     "font-awesome": "^4.7.0",
     "framer-motion": "^11.11.1",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1"
