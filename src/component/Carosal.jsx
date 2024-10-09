@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-import image1.jpg from "../photos";
+
 
 function Carosal() {
   return (
@@ -7,7 +7,7 @@ function Carosal() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="src\photos\image1.jpg" // Replace with the correct path to your image
+          src="src\photos\image1.jpg"
           alt="First slide" fluid
         />
         <Carousel.Caption>
@@ -18,7 +18,7 @@ function Carosal() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src={image1} // Replace with the correct path to your image
+          src="src\photos\image2.jpg" 
           alt="First slide" fluid
         />
         <Carousel.Caption>
@@ -29,7 +29,7 @@ function Carosal() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          src="src\photos\image3.jpg" // Replace with the correct path to your image
+          src="src\photos\image3.jpg" 
           alt="First slide" fluid
         />
         <Carousel.Caption>
